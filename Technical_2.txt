@@ -1,0 +1,17 @@
+Technical:
+    2. A user requested a page from your server.
+    This is the log from the serve-side:
+    64.227.50.115 - [10/Oct/2000:13:55:36 -0700] 200
+    "http://www.example.com/start.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    AppleWebKit/537.36 (KHTML, like Gecko) Selenium Chrome/84.0.4147.135
+    Safari/537.36
+What can we learn about this user? List all information you can deduce.
+
+
+1. ip + possible geographic location
+2. date of request
+3. request was successful (code 200)
+4. user requested url using http (non-secured) protocol from port 80
+5. user requested data from domain www.example.com
+6. user requested the path "/start.html" from the domain above
+7. user used Selenium (qa tool) on Chrome version 84.0.4147.135 on Windows 10 x64
